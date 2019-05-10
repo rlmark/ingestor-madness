@@ -1,0 +1,50 @@
+*.class
+*.log
+.envrc
+*.env
+!
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+version.conf
+version.sbt
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.cache
+.classpath
+.project
+.settings
+.idea/
+*.sc
+bin
+
+# Ensime specific
+.ensime
+.ensime_cache
+*~
+*#
+
+*.orig
+
+*.DS_Store
+
+# Gatling load test results
+results/
+*es-experiment/results/
+
+# python
+*.pyc
+venv
+.mypy_cache
+
+#Integration Test Reports
+test-reports/
