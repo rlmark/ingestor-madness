@@ -1,4 +1,4 @@
-sealed trait DataBag
+sealed trait DataBag extends Product with Serializable
 
 case class StringBag(s: String) extends DataBag
 

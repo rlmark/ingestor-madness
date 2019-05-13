@@ -1,3 +1,4 @@
+import cats.Traverse
 import cats.effect._
 import cats.temp.par.Par
 import cats.implicits._
